@@ -13,7 +13,7 @@ spec:
         app: complete-prodcution-e2e-pipeline-main-app
     spec:
       containers:
-        - name: complete-prodcution-e2e-pipeline
+        - name: complete-prodcution-e2e-pipeline-main
           image: oumymajellali/complete-prodcution-e2e-pipeline:1.0.0-35
           resources:
             limits:
