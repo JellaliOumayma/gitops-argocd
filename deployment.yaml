@@ -6,14 +6,14 @@ spec:
   replicas: 2
   selector:
     matchLabels:
-      app: complete-prodcution-e2e-pipeline-main-app
+      app: complete-prodcution-e2e-app
   template:
     metadata:
       labels:
-        app: complete-prodcution-e2e-pipeline-main-app
+        app: complete-prodcution-e2e-app
     spec:
       containers:
-        - name: complete-prodcution-e2e-pipeline-main
+        - name: complete-prodcution-e2e-app
           image: oumymajellali/complete-prodcution-e2e-pipeline:1.0.0-35
           resources:
             limits:
